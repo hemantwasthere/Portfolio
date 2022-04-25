@@ -35,7 +35,7 @@ const Contact = () => {
                         </a>
                     </li>
                     <li className='flex flex-col cursor-pointer w-12 sm:w-20 hover:text-white group'>
-                        <a href='https://hrsmart2150@gmail.com' rel="noreferrer" target='_blank' className='items-center text-gray-400'>
+                        <a href="mailto:hrsmart2150@gmail.com" rel="noreferrer" target='_blank' className='items-center text-gray-400'>
                             <HiOutlineMail className='h-8 mb-1 group-hover:animate-bounce group-hover:text-white' size={30} />
                             <p className='opacity-0 group-hover:opacity-100 tracking-widest text-white -ml-2'>Email</p>
                         </a>
