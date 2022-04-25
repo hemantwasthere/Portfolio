@@ -8,6 +8,10 @@ import Node from '../public/node.png';
 import GitHub from '../public/github.png';
 import Tailwind from '../public/tailwind.png';
 import Mongo from '../public/mongo.png';
+import Nextjs from '../public/nextjs.png';
+import Expressjs from '../public/expressjs.png';
+import Sql from '../public/sql.png';
+import Linux from '../public/linux.png';
 // import FireBase from '../public/firebase.png';
 // import AWS from '../public/aws.png';
 
@@ -31,28 +35,44 @@ const Skills = () => {
                         <p className='my-4'>CSS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <Image src={Tailwind} alt="TAILWINDCSS" className='mx-auto' width={100} height={100} />
-                        <p className='my-4'>TAILWINDCSS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <Image src={JavaScript} alt="JAVASCRIPT" className='mx-auto' width={100} height={100} />
                         <p className='my-4'>JAVASCRIPT</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <Image src={ReactImg} alt="REACT" className='mx-auto' width={100} height={100} />
-                        <p className='my-4'>REACT</p>
+                        <Image src={Tailwind} alt="TAILWINDCSS" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>TAILWINDCSS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <Image src={GitHub} alt="GITHUB" className='mx-auto' width={100} height={100} />
-                        <p className='my-4'>GITHUB</p>
+                        <Image src={Mongo} alt="MONGO" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>MONGO DB</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <Image src={Expressjs} alt="REACT" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>EXPRESS JS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <Image src={ReactImg} alt="REACT" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>REACT JS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <Image src={Node} alt="NODE" className='mx-auto' width={100} height={100} />
                         <p className='my-4'>NODE JS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <Image src={Mongo} alt="MONGO" className='mx-auto' width={100} height={100} />
-                        <p className='my-4'>MONGO DB</p>
+                        <Image src={Nextjs} alt="REACT" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>NEXT JS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <Image src={GitHub} alt="GITHUB" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>GITHUB</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <Image src={Sql} alt="GITHUB" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>SQL</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <Image src={Linux} alt="GITHUB" className='mx-auto' width={100} height={100} />
+                        <p className='my-4'>LINUX</p>
                     </div>
                     {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='mx-auto' width={100} height={100} src={AWS} alt="HTML icon" />
