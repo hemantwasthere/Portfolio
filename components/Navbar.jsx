@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
 import {
-    FaBars,
     FaTimes,
     FaGithub,
-    FaLinkedin,
-    FaFacebook,
-    FaLinkedinIn,
+    FaLinkedin
 } from 'react-icons/fa';
+import {RiMenu4Line} from 'react-icons/ri'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import Links from 'next/link';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -18,48 +15,50 @@ const Navbar = () => {
 
     return (
         <header>
-            <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-                <div className='hemant text-3xl text-pink-600 font-'>
+            <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50'>
+                <Link href='/' to='home'  smooth={true} duration={500}>
+                <div className='hemant text-3xl text-pink-600 cursor-pointer'>
                     Hemant
                 </div>
+                </Link>
 
                 {/* menu */}
                 <ul className='hidden md:flex'>
-                    <Links passHref href={'/'} to='home' smooth={true} duration={500}>
+                    <Link href='/' to='home' smooth={true} duration={500}>
                         <li className='hover:text-pink-500 duration-300'>
                                 Home
                         </li>
-                    </Links>
+                    </Link>
 
-                    <Links passHref href={'/about'} to='about' smooth={true} duration={500}>
+                    <Link href='/' to='about' smooth={true} duration={500}>
                         <li className='hover:text-pink-500 duration-300'>
                                 About
                         </li>
-                    </Links>
+                    </Link>
                     
-                    <Links passHref href={'/skills'} to='about' smooth={true} duration={500}>
+                    <Link href='/' to='skills' smooth={true} duration={500}>
                         <li className='hover:text-pink-500 duration-300'>
                                 Skills
                         </li>
-                    </Links>
+                    </Link>
                     
-                    <Links passHref href={'/work'} to='about' smooth={true} duration={500}>
+                    <Link href='/' to='work' smooth={true} duration={500}>
                         <li className='hover:text-pink-500 duration-300'>
                                 Work
                         </li>
-                    </Links>
+                    </Link>
                     
-                    <Links passHref href={'/contact'} to='about' smooth={true} duration={500}>
+                    <Link href='/' to='contact' smooth={true} duration={500}>
                         <li className='hover:text-pink-500 duration-300'>
                                 Contact
                         </li>
-                    </Links>
+                    </Link>
                     
                 </ul>
 
                 {/* Hamburger */}
                 <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
-                    {!nav ? <FaBars /> : <FaTimes />}
+                    {!nav ? <RiMenu4Line className='font-extrabold text-3xl' /> : <FaTimes className='font-extrabold text-3xl' />}
                 </div>
 
                 {/* Mobile menu */}
@@ -111,7 +110,7 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                            <a href='https://www.linkedin.com/in/hemant0000' rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+                            <a href='https://hrsmart2150@gmail.com' rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
                                 Email <HiOutlineMail size={30} />
                             </a>
                         </li>
