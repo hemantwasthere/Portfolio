@@ -110,12 +110,12 @@ const Navbar = () => {
                                 Github <FaGithub size={30} />
                             </li>
                         </a>
-                        <a href='https://www.twitter.com/_hemant_6969' rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+                        <a href='https://www.twitter.com/hemantwasthere' rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
                             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1D9BF0]'>
                                 Twitter <FaTwitter size={30} />
                             </li>
                         </a>
-                        <a href="mailto:hrsmart2150@gmail.com" rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+                        <a href="mailto:hemant.is.there@gmail.com" rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
                             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                                 Email <HiOutlineMail size={30} />
                             </li>
