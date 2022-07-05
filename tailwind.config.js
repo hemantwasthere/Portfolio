@@ -4,7 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Raleway': ['Raleway', 'sans-serif'],
+        'WaterB': ['Water Brush', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }

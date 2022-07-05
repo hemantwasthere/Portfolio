@@ -16,9 +16,9 @@ const Navbar = () => {
 
     return (
         <header>
-            <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50'>
+            <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50 font-Raleway'>
                 <Link href='/' to='home' smooth={true} duration={500}>
-                    <div className='hemant text-3xl text-pink-600 cursor-pointer'>
+                    <div className='hemant text-3xl text-pink-600 cursor-pointer font-WaterB'>
                         Hemant
                     </div>
                 </Link>
