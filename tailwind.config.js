@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'Raleway': ['Raleway', 'sans-serif'],
+        'OpenS': ['Open Sans', 'sans-serif'],
+        'DancingS': ['Dancing Script', 'cursive'],
         'WaterB': ['Water Brush', 'cursive'],
       },
     },

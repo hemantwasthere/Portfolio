@@ -9,7 +9,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Contact = () => {
     return (
-        <div name='contact' className='w-full pt-14 md:pt-20 bg-[#0a192f] flex justify-center items-center p-4 flex-col font-Raleway'>
+        <div name='contact' className='w-full pt-14 md:pt-20 bg-[#0a192f] flex justify-center items-center p-4 flex-col'>
             <form method='POST' action="https://getform.io/f/f8fb7153-7aca-4201-93b0-16c4ce335940" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
