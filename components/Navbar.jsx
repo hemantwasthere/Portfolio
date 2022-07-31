@@ -120,7 +120,7 @@ const Navbar = () => {
                                 Email <HiOutlineMail size={30} />
                             </li>
                         </a>
-                        <a href='https://drive.google.com/file/d/155K-57Tvm4Dc6FKsLo1O5aRFoZ58FOt6/view?usp=sharing' rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
+                        <a href='https://drive.google.com/file/d/1n_gKym-x3BZnVFTd6nhXH_q9Jx4qa-qz/view?usp=sharing' rel="noreferrer" target='_blank' className='flex justify-between items-center w-full text-gray-300'>
                             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                                 Resume <BsFillPersonLinesFill size={30} />
                             </li>
